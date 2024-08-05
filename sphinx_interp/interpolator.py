@@ -4,9 +4,6 @@ import os
 
 class SphinxInterpolator:
     def __init__(self, output_path='./', input_path='./sphinx_models'):
-
-        assert os.path.exists(input_path) 
-
         if not os.path.exists(output_path):
             os.mkdir(output_path)
 
