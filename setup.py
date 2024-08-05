@@ -1,5 +1,5 @@
 import setuptools
-from sphinx import __version__, name
+from sphinx_interp import __version__, name
 
 setuptools.setup(
     name = name,
@@ -19,6 +19,5 @@ setuptools.setup(
     include_package_data = True,
     zip_safe = False,
     install_requires = [
-        "numpy",
-        "scipy"]
+        "numpy", "scipy", "setuptools_scm"]
 )
